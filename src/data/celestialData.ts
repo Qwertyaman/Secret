@@ -87,7 +87,7 @@ export const timelineMilestones: TimelineMilestone[] = [
   },
   {
     id: 'milestone-bouquet',
-    date: 'The bouquet',
+    date: 'The Garden',
     title: '',
     subtitle: 'More to grow Flowers',
     description:
@@ -99,7 +99,7 @@ export const timelineMilestones: TimelineMilestone[] = [
   },
   {
     id: 'milestone-bracelet',
-    date: 'The bracelet',
+    date: 'The Pics',
     title: 'Pictures',
     subtitle: 'Gold and a little bit of pink',
     description:
