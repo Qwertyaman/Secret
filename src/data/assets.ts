@@ -18,7 +18,7 @@ export const storybookAssets: Record<string, StorybookAsset> = {
   },
   bouquet: {
     id: 'bouquet',
-    name: 'The Bouquet (Flower Nebula)',
+    name: 'The Garden',
     src: '/assets/bouquet.jpg',
     alt: 'The actual bouquet photograph from our journey',
     section: 'Chapter 3 — And Then, Our Story Began',
@@ -26,7 +26,7 @@ export const storybookAssets: Record<string, StorybookAsset> = {
   },
   bracelet: {
     id: 'bracelet',
-    name: 'The Bracelet (Orbital Rings)',
+    name: 'The Picture',
     src: '/assets/bracelet.jpg',
     alt: 'The actual bracelet photograph with gemstones',
     section: 'Chapter 3 — And Then, Our Story Began',

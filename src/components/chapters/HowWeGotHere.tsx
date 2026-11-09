@@ -152,7 +152,7 @@ export const HowWeGotHere: React.FC = () => {
                         <div className="w-16 h-16 rounded-full bg-[#E8A0C4]/15 border border-[#E8A0C4]/30 flex items-center justify-center mb-4 text-[#E8A0C4]">
                           <Camera className="w-7 h-7" />
                         </div>
-                        <p className="font-serif-garamond text-xl text-[#F8F7F2]/70 italic mb-1">The bouquet photograph</p>
+                        <p className="font-serif-garamond text-xl text-[#F8F7F2]/70 italic mb-1">The Garden</p>
                         <p className="font-sans-dm text-xs text-[#F8F7F2]/40">Coming soon</p>
                       </div>
                     )}
@@ -225,7 +225,7 @@ export const HowWeGotHere: React.FC = () => {
                         <div className="w-16 h-16 rounded-full bg-[#D6B66C]/15 border border-[#D6B66C]/30 flex items-center justify-center mb-4 text-[#D6B66C]">
                           <Camera className="w-7 h-7" />
                         </div>
-                        <p className="font-serif-garamond text-xl text-[#F8F7F2]/70 italic mb-1">The bracelet photograph</p>
+                        <p className="font-serif-garamond text-xl text-[#F8F7F2]/70 italic mb-1">The Picture of yours (which i dont have)</p>
                         <p className="font-sans-dm text-xs text-[#F8F7F2]/40">Coming soon</p>
                       </div>
                     )}
