@@ -2,7 +2,7 @@ import {
   ObservationStar,
   TimelineMilestone,
   LoveReasonStar,
-  VoiceNoteData,
+  // VoiceNoteData,
   RomanticLetterData,
 } from '../types/celestial';
 
@@ -19,44 +19,44 @@ export const ishaniProfile = {
 export const fiveObservations: ObservationStar[] = [
   {
     id: 'obs-calm',
-    title: 'Your quiet kind of magic',
+    title: 'My Favourite kind of Peace',
     subtitle: 'The calm you carry everywhere',
     story:
-      'There is a stillness about you that I cannot explain. When you are around, everything slows down in the best possible way. The noise of the world dims, and something in my chest just settles. I do not think you realise how much of that is entirely you.',
-    quote: 'The most calming thing in my life has always been simply having you close.',
+       `I don't know how you do it, but there is something about you that makes everything feel a little better. Even on days when my mind is all over the place, talking to you or just having you around makes things feel easier. Maybe you don't realise it, but you have become one of my favourite parts of my everyday life.`,
+    quote: "I don't know if you realise this, but you really do make my world a little more peaceful.",
     x: 20,
     y: 35,
     magnitude: 5.5,
   },
   {
     id: 'obs-cute',
-    title: 'The cutest little universe',
+    title: 'My cutest person',
     subtitle: 'The little things that make me smile',
     story:
-      'The way you do certain things — the small expressions, the tiny reactions, the moments you do not even notice — make me smile in a way I cannot stop. You are genuinely, effortlessly, impossibly cute. And I am so glad I get to be the one who notices.',
-    quote: 'You make ordinary moments feel like the best part of my day.',
+      'Okay, I do not think I need to explain this one much. The way you talk, your expressions, your little reactions and sometimes even the random things you do... everything is just so cute. And I don not think I will ever get tired of saying that. You might disagree sometimes, but well, you are going to have to live with my opinion on this one.',
+    quote: 'You are ridiculously cute, and I am definitely not taking that back.',
     x: 38,
     y: 20,
     magnitude: 6.0,
   },
   {
     id: 'obs-kind',
-    title: 'A heart that is always kind',
+    title: 'A beautiful heat of yours (which is with me btw)',
     subtitle: 'The warmth you give without thinking',
     story:
-      'You are kind in a way that feels completely natural to you — as if you cannot imagine being anything else. You treat people with a warmth that they carry with them long after you have left the room. That kind of goodness is rare, and I think about it more than you know.',
-    quote: 'Your kindness is not something you do. It is something you simply are.',
+      'One thing I really like about you is how kind you are. It is not something you do just to make people happy or to get noticed. It is just the way you are. The way you understand people, care about them and think about little things says a lot about you. I hope you never lose that part of yourself because it is genuinely one of my favourite things about you.',
+    quote: 'Please never change that beautiful heart of yours.',
     x: 62,
     y: 24,
     magnitude: 5.8,
   },
   {
     id: 'obs-resilient',
-    title: 'Stronger than you realise',
+    title: 'My strongest angry bird',
     subtitle: 'The strength I see in you every day',
     story:
-      'Life has handed you difficult moments, and you have moved through them with a quiet steadiness that honestly amazes me. You do not make a show of it. You just keep going. I have so much respect for the strength you carry, even on the days you feel like you have none left.',
-    quote: 'You are braver than you give yourself credit for. I see it even when you cannot.',
+      'I know things havent always been easy for you. And I know there are days when things get difficult and you might not feel your best. But I really want you to know that I see how much you handle and how you keep going. I wish you could sometimes see yourself the way I see you. You would realise how much strength you actually have. And no matter what, I hope you never forget that you dont have to figure everything out alone.',
+    quote: 'On days you feel you arent strong enough, I hope you remember that I believe in you.',
     x: 80,
     y: 42,
     magnitude: 5.6,
@@ -66,8 +66,8 @@ export const fiveObservations: ObservationStar[] = [
     title: 'The world you let me see',
     subtitle: 'The trust you have given me',
     story:
-      'The fact that you let me in — that you share your thoughts, your feelings, the parts of yourself you do not show everyone — means more to me than I can say. Being trusted by you feels like a privilege. I will always try to be worthy of it.',
-    quote: 'You let me into your world, and that is my favourite place to be.',
+      'I really like that you share your thoughts with me, tell me about your day and let me know whats going on in your mind. I know opening up isnt always easy, and I genuinely value the fact that you trust me with that side of you. I want you to always feel that you can talk to me about anything, whether its something big, something silly or absolutely nothing important.',
+    quote: 'I hope I always remain someone you can tell everything to.',
     x: 50,
     y: 68,
     magnitude: 6.5,
@@ -88,10 +88,10 @@ export const timelineMilestones: TimelineMilestone[] = [
   {
     id: 'milestone-bouquet',
     date: 'The bouquet',
-    title: 'A little something for you',
-    subtitle: 'Pink flowers and soft wrapping',
+    title: '',
+    subtitle: 'More to grow Flowers',
     description:
-      'I wanted to give you something that felt as gentle as you are. So I found flowers — soft pink ones — and I hoped when you saw them, you would know that this was me saying I am glad you are in my life.',
+      'We both like flowers much, and there are more to grow yet. The garden is going to be wonderful which we will be maing',
     theme: 'bouquet',
     imageSrc: '/assets/bouquet.jpg',
     imageAlt: 'The bouquet I gave her',
@@ -100,10 +100,10 @@ export const timelineMilestones: TimelineMilestone[] = [
   {
     id: 'milestone-bracelet',
     date: 'The bracelet',
-    title: 'Something to carry with you',
+    title: 'Pictures',
     subtitle: 'Gold and a little bit of pink',
     description:
-      'A delicate gold bracelet with small pink stones. I wanted you to have something you could wear and have close to you, something small that maybe reminded you that I am thinking of you.',
+      'Need to get more pictures of you as you can see the site also lack of picture',
     theme: 'bracelet',
     imageSrc: '/assets/bracelet.jpg',
     imageAlt: 'The bracelet I gave her',
@@ -125,9 +125,9 @@ export const tenLoveReasons: LoveReasonStar[] = [
   {
     id: 'reason-1',
     number: 1,
-    shortTitle: 'The way you make me feel calm',
+    shortTitle: 'You are my peace',
     extendedText:
-      'Being around you is the easiest thing. The anxiety in my head quiets down, and I just feel okay. That is not something I have always had, and I do not take it for granted.',
+     'Talking to you makes even the most tiring days feel better. Sometimes I dont even need a solution to anything. Just talking to you is enough.',
     x: 18,
     y: 28,
     size: 5,
@@ -135,9 +135,9 @@ export const tenLoveReasons: LoveReasonStar[] = [
   {
     id: 'reason-2',
     number: 2,
-    shortTitle: 'Your laugh',
+    shortTitle: 'Your hairs',
     extendedText:
-      'Your real, actual laugh — the one that comes out when something genuinely catches you off guard — is one of the best things I know. I think about it more than you realise.',
+      'Your hairs is what I am a fan off. Dont even thin of cutting it down or tae uneccessary advice seriously. You along with your hairs are perfect. (Helical structure btw)',
     x: 32,
     y: 18,
     size: 4.5,
@@ -157,7 +157,7 @@ export const tenLoveReasons: LoveReasonStar[] = [
     number: 4,
     shortTitle: 'The little things you do',
     extendedText:
-      'The small habits, the expressions, the things you do without thinking — I notice all of them. They are the parts of you that make me smile the most.',
+      'The small habits, the expressions, the things you do without thinking I notice all of them. They are the parts of you that make me smile the most.',
     x: 65,
     y: 15,
     size: 4.8,
@@ -167,7 +167,7 @@ export const tenLoveReasons: LoveReasonStar[] = [
     number: 5,
     shortTitle: 'The way you open up to me',
     extendedText:
-      'You let me in. You share things with me that you do not share with everyone. That means a lot. More than you probably know.',
+      'You let me be part of. You share things with me that you do not share with everyone. That means a lot. More than you probably know.',
     x: 82,
     y: 30,
     size: 5.2,
@@ -185,9 +185,9 @@ export const tenLoveReasons: LoveReasonStar[] = [
   {
     id: 'reason-7',
     number: 7,
-    shortTitle: 'That you are you',
+    shortTitle: 'Your presence',
     extendedText:
-      'I do not think I need to dress it up. You being exactly who you are — that is enough. It is more than enough. It is everything.',
+      'Everytime you are there whenever I need you whether to discuss or describe or share or even fight you are there. ',
     x: 58,
     y: 65,
     size: 6.0,
@@ -197,7 +197,7 @@ export const tenLoveReasons: LoveReasonStar[] = [
     number: 8,
     shortTitle: 'The way you care',
     extendedText:
-      'When you care about something — or someone — you really mean it. It comes through in everything you do. That kind of sincerity is rare and I love that about you.',
+      'This is the most interesting point. You care a lot for me, I really really like that and revealing a secret I like being cared by you sometimes even i like about unwellness',
     x: 38,
     y: 58,
     size: 4.8,
@@ -205,9 +205,9 @@ export const tenLoveReasons: LoveReasonStar[] = [
   {
     id: 'reason-9',
     number: 9,
-    shortTitle: 'How easy it is to be with you',
+    shortTitle: 'You resonate with me ',
     extendedText:
-      'There is no performance with you. I do not have to be anything other than myself. That comfort — the kind where you can just exist — is something I value more than I can say.',
+      'Most of the time you are with when u r with me, its hard to quote but its like you listen to me you try to resonate with me even when I sounf off trac maing me love you even more',
     x: 22,
     y: 70,
     size: 5.3,
@@ -217,7 +217,7 @@ export const tenLoveReasons: LoveReasonStar[] = [
     number: 10,
     shortTitle: 'That you chose me',
     extendedText:
-      'Out of everything and everyone, you let me be part of your world. I think about that sometimes and it still surprises me in a good way. I am lucky, and I know it.',
+      'Out of everything and everyone, you let me be part of your world. I think about that sometimes and it still surprises me in a good way. I am lucky, and I know it. And And these are not the only reason i love you but there are many more which i am unable to quote',
     x: 48,
     y: 84,
     size: 6.5,
@@ -227,21 +227,20 @@ export const tenLoveReasons: LoveReasonStar[] = [
 export const romanticLetterData: RomanticLetterData = {
   salutation: 'Dear Ishani,',
   paragraphs: [
-    'I have been trying to write this for a while. Every time I started, it felt like too much or not enough. So I decided to just be honest, the way I always want to be with you.',
-    'You make my life better. That is the simplest way I can say it. Not in a dramatic way, not in a way I could have predicted — just quietly, consistently, in the small moments that add up to everything.',
-    'I notice things about you. I notice the way you carry yourself, the way you are kind without thinking about it, the way you make people feel heard just by being present. I notice how strong you are, even when you do not feel like it. I notice how much it means that you let me in.',
-    'Today is your birthday, and I wanted you to have something that felt personal. Something made just for you, with real thought behind it. I hope this is that.',
-    'Thank you for being in my life. Thank you for letting me be in yours. I do not take any of it lightly.',
+    "First of all Love uuuuu ♥️♥️♥️♥️",
+    "I don't really know how to put everything into words, and honestly, I don't think I ever will. But I still wanted to try because you deserve to know how much you mean to me.",
+    "You know, you make my days better in ways you probably don't even realise. Sometimes it's just talking to you, sometimes it's the smallest things you do, and sometimes it's simply knowing that I have you. I don't think you understand how much happiness these little things bring me.There are so many things I love about you. The calmness you carry (especially when u mae me calm when I thin a lot), your cuteness (which honestly deserves a separate mention hehe), the kindness you show to people (sometimes over, oopsie), the way you stay strong even when things aren't easy (stongest warrior), and the way you open up to me and let me be a part of your world. I notice all these things, even the little ones, and I hope you never stop being the person you are. I know I might not always have the perfect words or know exactly how to express what I feel, but I hope you never have to doubt how special you are to me. I genuinely want to see you happy, achieve everything you dream of, and become everything you wish to be. And I hope I get to be there through all of it. I made this little space for you because I wanted to do something for you personally, something that you could look at and feel that someone put so much thought and love into making it just for you. And lastly, thank you for being you, for letting me know you the way I do, for trusting me, and for making me a part of your life. I hope this year brings you all the happiness you deserve.",
+    "Happy Birthday once again, my favourite person. ♥️",
   ],
-  closing: 'With love,',
+  closing: 'With lots of lots of lots of Love,',
   signature: 'Always yours',
   postScript: 'P.S. I hope today is as wonderful as you are.',
 };
 
-export const voiceNoteData: VoiceNoteData = {
-  title: 'A little something to hear',
-  duration: '01:28',
-  recordedDate: 'Recorded for November 10, 2026',
-  audioUrl: '/assets/voicenote.mp3',
-  transcriptSnippet: '"Happy birthday, Ishani. I wanted you to actually hear me say it..."',
-};
+// export const voiceNoteData: VoiceNoteData = {
+//   // title: 'A little something to hear',
+//   // duration: '01:28',
+//   // recordedDate: 'Recorded for November 10, 2026',
+//   // audioUrl: '/assets/voicenote.mp3',
+//   // transcriptSnippet: '"Happy birthday, Ishani. I wanted you to actually hear me say it..."',
+// };
