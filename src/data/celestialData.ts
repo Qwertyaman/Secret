@@ -2,7 +2,7 @@ import {
   ObservationStar,
   TimelineMilestone,
   LoveReasonStar,
-  // VoiceNoteData,
+  VoiceNoteData,
   RomanticLetterData,
 } from '../types/celestial';
 
@@ -237,10 +237,10 @@ export const romanticLetterData: RomanticLetterData = {
   postScript: 'P.S. I hope today is as wonderful as you are.',
 };
 
-// export const voiceNoteData: VoiceNoteData = {
-//   // title: 'A little something to hear',
-//   // duration: '01:28',
-//   // recordedDate: 'Recorded for November 10, 2026',
-//   // audioUrl: '/assets/voicenote.mp3',
-//   // transcriptSnippet: '"Happy birthday, Ishani. I wanted you to actually hear me say it..."',
-// };
+export const voiceNoteData: VoiceNoteData = {
+  title: 'A little something to hear',
+  duration: '01:28',
+  recordedDate: 'Recorded for November 10, 2026',
+  audioUrl: '/assets/voicenote.mp3',
+  transcriptSnippet: '"Happy birthday, Ishani. I wanted you to actually hear me say it..."',
+};
